@@ -1,0 +1,8 @@
+bagalar = {"zhannur": [100,100,100],
+           "aina": [89, 90, 57],
+           "raushan": [78, 98, 95]}
+
+for key in bagalar:
+    baga = bagalar[key]
+    ortasha = sum(baga)/len(baga)
+print(key, ortasha)
