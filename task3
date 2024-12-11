@@ -1,0 +1,16 @@
+tauarlar = {
+    1:{"name":"nan", "baga": 110},
+    2:{"name": "syt", "baga": 450},
+    3:{"name":"cola 1l","baga": 500}
+}
+
+for id, data in tauarlar.items():
+    print(id, data['name'], ":", data['baga'])
+
+tandalgan_tauar = int(input("tauar id in engiziniz"))
+tauar_sany = int(input("kansha shtuk algynyz keledy"))
+y =tauarlar[tandalgan_tauar]["baga"]
+x=tauar_sany*y
+#x = tauar_sany*tauarlar(id, ["baga"])
+#print("cizden", x, "tenge bolady")
+print(f"{tauar_sany} {tauarlar} aldynyz sizden{x} tenge") 
